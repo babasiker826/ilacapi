@@ -5,7 +5,7 @@ from googleapiclient.http import MediaIoBaseDownload
 import json
 import io
 import re
-
+import os
 app = Flask(__name__)
 
 # Drive API ayarları
